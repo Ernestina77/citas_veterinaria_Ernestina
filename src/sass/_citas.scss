@@ -1,0 +1,10 @@
+@import 'generales', 'variables';
+
+.button.eliminar{
+    background-color: $rojo;
+    color: $blanco;
+    border: none;
+    &:hover{
+        background-color: $celeste;
+    }
+}

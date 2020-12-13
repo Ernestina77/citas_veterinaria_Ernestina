@@ -1,0 +1,25 @@
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: $titulo;
+    font-weight: $bold;
+}
+
+h2{
+    font-family: $cuerpo;
+    font-weight: $bold;
+}
+h3{
+    font-family: $cuerpo;
+    font-weight: $bold;
+}
+p{
+    font-family: $cuerpo;
+    font-weight: $regular;
+}

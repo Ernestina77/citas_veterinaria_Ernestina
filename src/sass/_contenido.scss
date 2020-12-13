@@ -1,0 +1,18 @@
+@import 'generales', 'variables';
+
+body{
+    width: 100%;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $azul;
+}
+
+h1{
+    color: $verde;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+}

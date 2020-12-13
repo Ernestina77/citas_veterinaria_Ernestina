@@ -1,0 +1,27 @@
+@import 'generales', 'variables';
+
+h2{
+    color: $celeste;
+    font-size: 32px;
+    text-align: center;
+}
+label{
+    color: $blanco;
+}
+p{
+    color: $blanco;
+}
+
+input[type="date"],
+input[type="time"] {
+  height: 38px;
+    padding: 6px 10px;
+    background-color: $blanco;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+.button-primary{
+    background-color: $verde;
+}
